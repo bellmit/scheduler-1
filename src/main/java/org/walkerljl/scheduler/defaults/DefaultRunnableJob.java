@@ -1,16 +1,16 @@
-package org.walkerljl.toolkit.scheduler.defaults;
+package org.walkerljl.scheduler.defaults;
 
 import java.util.Date;
 import java.util.List;
 
+import org.walkerljl.scheduler.JobDetail;
+import org.walkerljl.scheduler.JobDetailWrapper;
+import org.walkerljl.scheduler.JobExecutionContext;
+import org.walkerljl.scheduler.RunnableJob;
 import org.walkerljl.toolkit.logging.Logger;
 import org.walkerljl.toolkit.logging.LoggerFactory;
-import org.walkerljl.toolkit.scheduler.JobDetail;
-import org.walkerljl.toolkit.scheduler.JobDetailWrapper;
-import org.walkerljl.toolkit.scheduler.JobExecutionContext;
-import org.walkerljl.toolkit.scheduler.exception.JobExecutionException;
-import org.walkerljl.toolkit.scheduler.RunnableJob;
-import org.walkerljl.toolkit.scheduler.filter.JobFilter;
+import org.walkerljl.scheduler.exception.JobExecutionException;
+import org.walkerljl.scheduler.filter.JobFilter;
 
 /**
  * DefaultRunnableJob
@@ -22,7 +22,7 @@ public class DefaultRunnableJob implements RunnableJob {
     private static final Logger LOGGER = LoggerFactory.getLogger(DefaultRunnableJob.class);
 
     private JobExecutionContext jobContext;
-    private JobDetailWrapper jobDetailWrapper;
+    private JobDetailWrapper    jobDetailWrapper;
 
     public DefaultRunnableJob(JobExecutionContext jobContext, JobDetailWrapper jobDetailWrapper) {
         this.jobContext = jobContext;

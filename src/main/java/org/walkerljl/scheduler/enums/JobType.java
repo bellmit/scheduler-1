@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.scheduler.enums;
+package org.walkerljl.scheduler.enums;
 
 /**
  * 任务类型

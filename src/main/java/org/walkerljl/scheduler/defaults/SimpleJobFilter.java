@@ -1,9 +1,9 @@
-package org.walkerljl.toolkit.scheduler.defaults;
+package org.walkerljl.scheduler.defaults;
 
+import org.walkerljl.scheduler.JobExecutionContext;
+import org.walkerljl.scheduler.filter.JobFilter;
 import org.walkerljl.toolkit.logging.Logger;
 import org.walkerljl.toolkit.logging.LoggerFactory;
-import org.walkerljl.toolkit.scheduler.JobExecutionContext;
-import org.walkerljl.toolkit.scheduler.filter.JobFilter;
 
 /**
  * SimpleJobFilter

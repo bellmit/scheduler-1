@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.scheduler.defaults;
+package org.walkerljl.scheduler.defaults;
 
 import java.util.HashMap;
 import java.util.List;
@@ -7,24 +7,23 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+import org.walkerljl.scheduler.Scheduler;
 import org.walkerljl.toolkit.lang.MapUtils;
 import org.walkerljl.toolkit.lang.SetUtils;
 import org.walkerljl.toolkit.lang.StringUtils;
 import org.walkerljl.toolkit.lang.thread.NamedThreadFactory;
 import org.walkerljl.toolkit.logging.Logger;
 import org.walkerljl.toolkit.logging.LoggerFactory;
-import org.walkerljl.toolkit.scheduler.JobDetail;
-import org.walkerljl.toolkit.scheduler.JobDetailWrapper;
-import org.walkerljl.toolkit.scheduler.JobExecutionContext;
-import org.walkerljl.toolkit.scheduler.JobLoader;
-import org.walkerljl.toolkit.scheduler.Scheduler;
-import org.walkerljl.toolkit.scheduler.SchedulingContext;
-import org.walkerljl.toolkit.scheduler.enums.JobStatus;
-import org.walkerljl.toolkit.scheduler.enums.JobType;
-import org.walkerljl.toolkit.scheduler.exception.SchedulerException;
-import org.walkerljl.toolkit.scheduler.filter.JobFilter;
+import org.walkerljl.scheduler.JobDetail;
+import org.walkerljl.scheduler.JobDetailWrapper;
+import org.walkerljl.scheduler.JobExecutionContext;
+import org.walkerljl.scheduler.JobLoader;
+import org.walkerljl.scheduler.SchedulingContext;
+import org.walkerljl.scheduler.enums.JobStatus;
+import org.walkerljl.scheduler.enums.JobType;
+import org.walkerljl.scheduler.exception.SchedulerException;
+import org.walkerljl.scheduler.filter.JobFilter;
 import org.walkerljl.toolkit.standard.abstracts.AbstractMachine;
-import org.walkerljl.toolkit.standard.exception.AppException;
 import org.walkerljl.toolkit.standard.exception.machine.CannotStartMachineException;
 import org.walkerljl.toolkit.standard.exception.machine.CannotStopMachineException;
 

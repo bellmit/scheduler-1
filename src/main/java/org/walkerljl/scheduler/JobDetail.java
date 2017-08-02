@@ -1,10 +1,10 @@
-package org.walkerljl.toolkit.scheduler;
+package org.walkerljl.scheduler;
 
 import java.io.Serializable;
 import java.util.Set;
 
-import org.walkerljl.toolkit.scheduler.enums.JobStatus;
-import org.walkerljl.toolkit.scheduler.enums.JobType;
+import org.walkerljl.scheduler.enums.JobStatus;
+import org.walkerljl.scheduler.enums.JobType;
 
 /**
  * 任务明细

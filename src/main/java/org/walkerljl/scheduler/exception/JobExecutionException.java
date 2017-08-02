@@ -1,19 +1,19 @@
-package org.walkerljl.toolkit.scheduler.exception;
+package org.walkerljl.scheduler.exception;
 
 import org.walkerljl.toolkit.standard.exception.AppException;
 import org.walkerljl.toolkit.standard.exception.ErrorCode;
 
 /**
- * SchedulerException
+ * 任务执行异常
  *
  * @author lijunlin
  */
-public class SchedulerException extends AppException {
+public class JobExecutionException extends AppException {
 
     /**
      * 默认构造函数
      */
-    public SchedulerException() {
+    public JobExecutionException() {
         super();
     }
 
@@ -22,7 +22,7 @@ public class SchedulerException extends AppException {
      *
      * @param message 异常消息
      */
-    public SchedulerException(String message) {
+    public JobExecutionException(String message) {
         super(message);
     }
 
@@ -31,7 +31,7 @@ public class SchedulerException extends AppException {
      *
      * @param e 异常对象
      */
-    public SchedulerException(Throwable e) {
+    public JobExecutionException(Throwable e) {
         super(e);
     }
 
@@ -40,7 +40,7 @@ public class SchedulerException extends AppException {
      *
      * @param code 异常码
      */
-    public SchedulerException(ErrorCode code) {
+    public JobExecutionException(ErrorCode code) {
         super(code.getDescription());
         this.code = code;
     }
@@ -51,7 +51,7 @@ public class SchedulerException extends AppException {
      * @param code 异常码
      * @param message 异常消息
      */
-    public SchedulerException(ErrorCode code, String message) {
+    public JobExecutionException(ErrorCode code, String message) {
         super(code, message);
     }
 
@@ -61,7 +61,7 @@ public class SchedulerException extends AppException {
      * @param message 异常消息
      * @param e 异常对象
      */
-    public SchedulerException(String message, Throwable e) {
+    public JobExecutionException(String message, Throwable e) {
         super(message, e);
     }
 
@@ -72,7 +72,7 @@ public class SchedulerException extends AppException {
      * @param message 异常消息
      * @param e 异常对象
      */
-    public SchedulerException(ErrorCode code, String message, Throwable e) {
+    public JobExecutionException(ErrorCode code, String message, Throwable e) {
         super(code, message, e);
     }
 }

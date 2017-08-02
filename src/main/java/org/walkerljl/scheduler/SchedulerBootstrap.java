@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.scheduler;
+package org.walkerljl.scheduler;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,11 +7,11 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+import org.walkerljl.scheduler.defaults.DefaultScheduler;
 import org.walkerljl.toolkit.lang.PropertiesUtils;
 import org.walkerljl.toolkit.logging.Logger;
 import org.walkerljl.toolkit.logging.LoggerFactory;
-import org.walkerljl.toolkit.scheduler.defaults.DefaultScheduler;
-import org.walkerljl.toolkit.scheduler.filter.JobFilter;
+import org.walkerljl.scheduler.filter.JobFilter;
 
 /**
  * 调度器引导程序

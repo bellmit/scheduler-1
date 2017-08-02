@@ -1,8 +1,8 @@
-package org.walkerljl.toolkit.scheduler;
+package org.walkerljl.scheduler;
 
 import java.util.List;
 
-import org.walkerljl.toolkit.scheduler.filter.JobFilter;
+import org.walkerljl.scheduler.filter.JobFilter;
 import org.walkerljl.toolkit.standard.Machine;
 
 /**

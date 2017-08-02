@@ -1,16 +1,16 @@
-package org.walkerljl.toolkit.scheduler.defaults;
+package org.walkerljl.scheduler.defaults;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import org.walkerljl.scheduler.JobDetail;
+import org.walkerljl.scheduler.JobLoader;
 import org.walkerljl.toolkit.logging.Logger;
 import org.walkerljl.toolkit.logging.LoggerFactory;
-import org.walkerljl.toolkit.scheduler.Job;
-import org.walkerljl.toolkit.scheduler.JobDetail;
-import org.walkerljl.toolkit.scheduler.JobExecutionContext;
-import org.walkerljl.toolkit.scheduler.exception.JobExecutionException;
-import org.walkerljl.toolkit.scheduler.JobLoader;
-import org.walkerljl.toolkit.scheduler.enums.JobType;
+import org.walkerljl.scheduler.Job;
+import org.walkerljl.scheduler.JobExecutionContext;
+import org.walkerljl.scheduler.exception.JobExecutionException;
+import org.walkerljl.scheduler.enums.JobType;
 
 /**
  * Simple job loader

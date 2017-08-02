@@ -1,6 +1,6 @@
-package org.walkerljl.toolkit.scheduler;
+package org.walkerljl.scheduler;
 
-import org.walkerljl.toolkit.scheduler.exception.JobExecutionException;
+import org.walkerljl.scheduler.exception.JobExecutionException;
 
 /**
  * 可执行任务

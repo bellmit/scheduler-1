@@ -1,11 +1,11 @@
-package org.walkerljl.toolkit.scheduler;
+package org.walkerljl.scheduler;
 
 import java.io.Serializable;
 import java.util.Date;
 
 import org.walkerljl.toolkit.datetime.CronExpression;
 import org.walkerljl.toolkit.exception.AppException;
-import org.walkerljl.toolkit.scheduler.enums.JobType;
+import org.walkerljl.scheduler.enums.JobType;
 import org.walkerljl.toolkit.util.StringUtils;
 
 /**
